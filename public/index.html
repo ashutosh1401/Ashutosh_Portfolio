@@ -21,7 +21,6 @@
 </head>
 <body>
   <!--Navbar Section-->
-  <div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper bg-nav">
       <a href="#" class="brand-logo name-header">&lt;Ashutosh Thakur /&gt;</a>
@@ -38,9 +37,35 @@
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Project</a></li>
       <li><a href="#contact">Contact</a></li>
+      <li><a class="sidenav-close" href="#!"><i class="large material-icons">cancel</i>Close</a></li>
     </ul>
+    
   </nav>
+  
+<div class="fixed-action-btn" id="scrollTop" onclick="topFunction()">
+  <a class="btn-floating btn-large red">
+    <i class="large material-icons">arrow_upward</i>
+  </a>
 </div>
+<script>
+var scrollTopbtn = document.getElementById("scrollTop")
+console.log(scrollTopbtn);
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    scrollTopbtn.style.display = "block";
+  } else {
+    scrollTopbtn.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} 
+</script>
 <!--About Section-->
   <div class="container" id="about">
     <div class="row topdisplay">
@@ -172,17 +197,17 @@
         <footer class="page-footer bgfoot">
           <div class="container" id="contact">
             <div class="row" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500" data-aos-offset="200">
-              <div class="col s12 m2 l2">
-                <img src="img/profile.jpeg" class="circle responsive-img img-width z-depth-3"/>
-                <p>ASHUTOSH THAKUR</p>
+              <div class="col s12 m2 l2" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-offset="300">
+                <center><img src="img/profile.jpeg" class="circle responsive-img img-width z-depth-3"/></center>
+                <center>ASHUTOSH THAKUR</center>
                 </div>
               <div class="col l4 offset-l6 s12 m5 offset-m5">
-                <h5 class="white-text">Contact Me!!</h5>
+                <h5 class="white-text center-align">Contact Me!!</h5>
                 <ul>
-                  <li class="contact-link"><a class="grey-text text-lighten-3" href="https://github.com/ashutosh1401"><i class="fab fa-github"></i> GitHub</a></li>
-                  <li class="contact-link"><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/ashutosh-thakur-5aa181199/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-                  <li class="contact-link"><a class="grey-text text-lighten-3" href="mailto:ashutoshthakur1409@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
-                  <li class="contact-link"><a class="grey-text text-lighten-3" href="https://www.instagram.com/as.hutosh5613/"><i class="fab fa-instagram"></i> Instagram</a></li>
+                  <li class="contact-link center-align"><a class="grey-text text-lighten-3" href="https://github.com/ashutosh1401"><i class="fab fa-github"></i> GitHub</a></li>
+                  <li class="contact-link center-align"><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/ashutosh-thakur-5aa181199/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                  <li class="contact-link center-align"><a class="grey-text text-lighten-3" href="mailto:ashutoshthakur1409@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+                  <li class="contact-link center-align"><a class="grey-text text-lighten-3" href="https://www.instagram.com/as.hutosh5613/"><i class="fab fa-instagram"></i> Instagram</a></li>
                 </ul>
               </div>
             </div>
@@ -204,6 +229,12 @@
       document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.parallax');
     var instances = M.Parallax.init(elems);
+  });
+  </script>
+  <script>
+     document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems);
   });
   </script>
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>

@@ -97,8 +97,17 @@ html {
 }
 
 @media only screen and (max-width: 920px) {
+  .name-header {
+    font-family: "Grand Hotel", cursive;
+    font-size: 40px !important;
+  }
   .topdisplay {
     margin: 50px 0px;
+  }
+  .typeintro {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 25px;
   }
   .skill-column {
     display: grid;
@@ -112,8 +121,17 @@ html {
 }
 
 @media only screen and (max-width: 441px) {
+  .name-header {
+    font-family: "Grand Hotel", cursive;
+    font-size: 20px !important;
+  }
   .topdisplay {
     margin: 10px 0px;
+  }
+  .typeintro {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
   }
   .skill-column {
     display: grid;

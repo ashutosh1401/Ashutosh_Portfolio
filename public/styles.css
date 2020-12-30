@@ -68,7 +68,7 @@ html {
 .skill-column {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  font-size: 40px;
+  font-size: 35px;
   padding: 20px;
   padding-left: 30px;
 }

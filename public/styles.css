@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+.name-header {
+  font-family: "Grand Hotel", cursive;
+  font-size: 45px;
+  padding-left: 10px;
+}
+
+.bg-nav {
+  background: #4568dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.picture-1 {
+  /* undraw_web_developer_p3e5 1 */
+
+  position: absolute;
+  width: 707px;
+  height: 508px;
+  left: 689px;
+  top: 350px;
+}
+
+.topdisplay {
+  margin: 120px 0px;
+}
+
+.intro-heading {
+  font-weight: 600;
+  font-style: oblique;
+  font-size: 40px;
+}
+
+.typeintro {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 30px;
+}
+.briefintro {
+  margin: 5px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.skill-section {
+  background-color: #f7f7f7;
+}
+.resume-btn {
+  font-weight: 600;
+}
+.skill-column {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  font-size: 40px;
+  padding: 20px;
+  padding-left: 30px;
+}
+
+.contact-link {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+.contact-link > a:hover {
+  color: #502fd5 !important;
+}
+.bgfoot {
+  background: #4568dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media only screen and (max-width: 920px) {
+  .topdisplay {
+    margin: 50px 0px;
+  }
+  .skill-column {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 30px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 441px) {
+  .topdisplay {
+    margin: 10px 0px;
+  }
+  .skill-column {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 20px;
+    padding: 25px;
+  }
+  .img-width {
+    width: 50%;
+    margin: 0 auto;
+  }
+}

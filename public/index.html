@@ -74,12 +74,12 @@ function topFunction() {
   <div class="container" id="about">
     <div class="row topdisplay">
       <div class="col s12 m6 l6">
-        <h3 class="intro-heading valign-wrapper" data-aos="fade-up">Hi, Ashutosh here</h3>
+        <h3 class="intro-heading valign-wrapper" data-aos="fade-up">Hi, Ashutosh here 👋</h3>
         <div id="intro" data-aos="fade-up">
-
+        
         </div>
         <div class="briefintro" data-aos="fade-up" data-aos-delay="500">
-          <p class="flow-text">I am Pursuing Bachelor of Technology in Computer Science and Enginnering. I am passionate about web development and eager to learn New things and expand my skill set. I Love Making APIs and also skilled in MERN stack. I am also engaged in CP and writing code in C++.</p>
+          <p class="flow-text">I am Pursuing Bachelor of Technology in Computer Science and Enginnering. I am passionate about web development and eager to learn New things and expand my skill set. I Love Making APIs and also skilled in MERN stack. I am also engaged in CP and code in C++.</p>
           <a class="waves-effect waves-teal btn-flat light-blue lighten-2 white-text resume-btn">RESUME</a>
         </div>
       </div>
@@ -98,7 +98,7 @@ function topFunction() {
   <div class="skill-section">
   <div class="container" id="skills">
     <div class="row">
-      <div class="col s12 m12 l12">
+      <div class="col s12 m12 l12" data-aos="fade-up">
         <h3 class="intro-heading"><center><u>SKILLS</u></center></h3>
       </div>
       <div class="col s12 m12 l12">
@@ -117,7 +117,7 @@ function topFunction() {
             <div data-aos="fade-up"><span class="iconify" data-icon="logos:c-plusplus" data-inline="false"></span> <div>C++</div> </div>
         </div>  
       </div>
-      <div class="col s12 m12 l12">
+      <div class="col s12 m12 l12" data-aos="fade-up">
         <h3 class="intro-heading"><center><u>Tools and Technology</u></center></h3>
       </div>
       <div class="col s12 m12 l12">
@@ -143,7 +143,7 @@ function topFunction() {
   <!--Projects Section-->
   <div class="container" id="projects">
     <div class="row">
-      <div class="col s12 m12 l12">
+      <div class="col s12 m12 l12" data-aos="fade-up">
         <h3 class="intro-heading"><center><u>Projects</u></center></h3>
       </div>
       <div class="col s12 m6 l6" data-aos="zoom-in-right" data-aos-duration="800">
@@ -216,7 +216,7 @@ function topFunction() {
   
   <div class="container" id="education">
     <div class="row">
-      <div class="col s12 m12 l12">
+      <div class="col s12 m12 l12" data-aos="fade-up">
         <h3 class="intro-heading"><center><u>Education</u></center></h3>
       </div>
       <div class="col s12 m12 l12" data-aos="fade-up-right" data-aos-offset="200" data-aos-duration="800">
@@ -286,12 +286,17 @@ function topFunction() {
   <script>
     var intro = document.getElementById("intro");
     var typewriter = new Typewriter(intro, {
-      loop: true
+      loop: true,
+      cursor: "/",
+      cursorClassName: "cursor-typeintro"
     })
 
-    typewriter.typeString(`<span class="typeintro">I'm Web Developer</span>`)
+    typewriter.typeString(`<span class="typeintro">I'm Frontend Developer</span>`)
     .pauseFor(2500)
-    .deleteChars(13)
+    .deleteChars(18)
+    .typeString(`<span class="typeintro">Backend Developer`)
+    .pauseFor(2500)
+    .deleteChars(17)
     .typeString(`<span class="typeintro">Competitive Programmer</span>`)
     .pauseFor(2500)
     .deleteChars(22)

@@ -110,6 +110,10 @@ html {
   padding-top: 5px;
   margin-top: 5px;
 }
+.cursor-typeintro {
+  font-size: 30px;
+  font-weight: 300;
+}
 
 @media only screen and (max-width: 920px) {
   .name-header {
@@ -122,6 +126,9 @@ html {
   .typeintro {
     font-style: italic;
     font-weight: 500;
+    font-size: 25px;
+  }
+  .cursor-typeintro {
     font-size: 25px;
   }
   .skill-column {
@@ -153,6 +160,9 @@ html {
   .typeintro {
     font-style: italic;
     font-weight: 500;
+    font-size: 20px;
+  }
+  .cursor-typeintro {
     font-size: 20px;
   }
   .skill-column {

@@ -78,9 +78,15 @@ html {
   font-size: 20px;
   padding: 10px;
 }
-.contact-link > a:hover {
+
+.contact-link a:hover {
   color: #502fd5 !important;
 }
+
+.contact-link > a {
+  margin-left: 85px;
+}
+
 .bgfoot {
   background: #4568dc; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -121,6 +127,10 @@ html {
 .intro-icon:hover {
   color: black;
 }
+
+.briefintro .intro-icon:nth-of-type(1) {
+  padding-left: 0;
+}
 @media only screen and (max-width: 920px) {
   .name-header {
     font-family: "Grand Hotel", cursive;
@@ -143,7 +153,7 @@ html {
     font-size: 30px;
     padding: 20px;
   }
-  .contact-link > a:hover {
+  .contact-link a:hover {
     color: #502fd5 !important;
   }
   .education-header {
@@ -188,7 +198,7 @@ html {
     width: 50%;
     margin: 0 auto;
   }
-  .contact-link > a:hover {
+  .contact-link a:hover {
     color: #502fd5 !important;
   }
   .education-header {

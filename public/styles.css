@@ -114,7 +114,13 @@ html {
   font-size: 30px;
   font-weight: 300;
 }
-
+.intro-icon {
+  padding: 5px 25px;
+  font-size: 35px;
+}
+.intro-icon:hover {
+  color: black;
+}
 @media only screen and (max-width: 920px) {
   .name-header {
     font-family: "Grand Hotel", cursive;
@@ -146,6 +152,13 @@ html {
     font-style: inherit;
     padding-top: 10px;
     margin-top: 5px;
+  }
+  .intro-icon {
+    padding: 5px 15px;
+    font-size: 30px;
+  }
+  .intro-icon:hover {
+    color: black;
   }
 }
 
@@ -184,5 +197,12 @@ html {
     font-style: inherit;
     padding-top: 5px;
     margin-top: 5px;
+  }
+  .intro-icon {
+    padding: 5px 05px;
+    font-size: 25px;
+  }
+  .intro-icon:hover {
+    color: black;
   }
 }

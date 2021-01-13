@@ -142,10 +142,10 @@ html {
   .typeintro {
     font-style: italic;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 23px;
   }
   .cursor-typeintro {
-    font-size: 25px;
+    font-size: 23px;
   }
   .skill-column {
     display: grid;

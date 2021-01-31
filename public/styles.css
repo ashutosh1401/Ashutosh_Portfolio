@@ -28,16 +28,6 @@ html {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.picture-1 {
-  /* undraw_web_developer_p3e5 1 */
-
-  position: absolute;
-  width: 707px;
-  height: 508px;
-  left: 689px;
-  top: 350px;
-}
-
 .topdisplay {
   margin: 120px 0px;
 }

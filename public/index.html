@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Description" content="This is My portfolio Website">
-
+    <link rel="manifest" href="./manifest.webmanifest">
     
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -314,4 +314,12 @@ function topFunction() {
   integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>    
 </body>
+<script>
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker
+             .register('./sw.js')
+             .then(function() { console.log("Service Worker Registered"); });
+  }
+  </script>
+  
 </html>

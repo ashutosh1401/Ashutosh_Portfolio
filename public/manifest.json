@@ -2,7 +2,7 @@
     "name": "Portfolio",
     "short_name" : "Portfolio",
     "start_url": "/index.html",
-    "scope": "/index.html",
+    "scope": "/",
     "icons": [
         {
             "src": "./img/briefcase.png",

@@ -54,6 +54,20 @@ html {
 }
 .resume-btn {
   font-weight: 600;
+  height: 35px;
+  margin-bottom: 13px;
+  background: #4568dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
 }
 .skill-column {
   display: grid;
@@ -160,6 +174,9 @@ html {
   .intro-icon:hover {
     color: black;
   }
+  .resume-btn {
+    margin-bottom: 10px;
+  }
 }
 
 @media only screen and (max-width: 441px) {
@@ -204,5 +221,8 @@ html {
   }
   .intro-icon:hover {
     color: black;
+  }
+  .resume-btn {
+    margin-bottom: 8px;
   }
 }

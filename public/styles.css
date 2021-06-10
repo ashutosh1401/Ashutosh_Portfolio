@@ -135,6 +135,7 @@ html {
 .briefintro .intro-icon:nth-of-type(1) {
   padding-left: 0;
 }
+
 @media only screen and (max-width: 920px) {
   .name-header {
     font-family: "Grand Hotel", cursive;

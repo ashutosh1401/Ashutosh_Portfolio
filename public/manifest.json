@@ -1,0 +1,15 @@
+{
+    "short_name": "Portfolio",
+    "name": "Ashutosh Thakur : Portfolio",
+    "icons": [
+        {
+            "src": "/public/img/icon-144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        }
+    ],
+    "start_url":"/",
+    "background_color": "#000000",
+    "display": "standalone",
+    "theme_color": "#4dbaa8"
+}
